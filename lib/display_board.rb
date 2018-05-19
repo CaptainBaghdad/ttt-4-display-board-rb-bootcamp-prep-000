@@ -2,8 +2,10 @@
 # out the current state.
 
 def display_board(board)
- board = []
- board.push("   |   |   ", "-----------", "   | X  |   ","-----------","   |   |   ")
+  if board == [] || board == nil
+ board.push("   |   |   ", "-----------", "   |   |   ","-----------","   |   |   ")
+  puts board
+end
  
  
  
@@ -12,7 +14,7 @@ def display_board(board)
  
  
  
- puts board
+
  
  
  
