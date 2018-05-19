@@ -3,7 +3,15 @@
 
 def display_board(board)
  board = []
- board.push("   |   |   ", "-----------", "   |   |   ","-----------","   |   |   ")
+ board.push("   |   |   ", "-----------", "   | X  |   ","-----------","   |   |   ")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  puts board
  
  
